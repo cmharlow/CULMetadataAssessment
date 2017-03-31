@@ -3,7 +3,7 @@ layout: page
 title: "Licenses"
 permalink: /license/
 ---
-## Instructional Material
+## Curriculum
 
 This material is available under the [Creative Commons Attribution
 license][cc-by-human]. The following is a human-readable summary of
@@ -22,10 +22,7 @@ license terms.
 
 Under the following terms:
 
-* **Attribution**---You must give appropriate credit (mentioning that
-  your work is derived from work that is Copyright © Software
-  Carpentry and, where practical, linking to
-  http://software-carpentry.org/), provide a [link to the
+* **Attribution**---You must give appropriate credit, provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.
@@ -44,7 +41,7 @@ Notices:
   rights such as publicity, privacy, or moral rights may limit how you
   use the material.
 
-## Software
+## Sample Data & Scripts
 
 Except where otherwise noted, the example programs and other software
 provided here are made available under the
