@@ -188,11 +188,11 @@ def main():
     s = 0
     with open(args.datafile) as data:
         SolrData = json.load(data)
-    records = SolrData['response']['docs']
+    records = SolrData['response']
     numberRecords = len(records)
 
     for n in range(numberRecords):
-        record = Record(records[n], args)
+        record = Record(records[n]['document'], args)
         record_id = record.get_record_id()
 
         if args.stats is False and args.present is False:
