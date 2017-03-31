@@ -8,25 +8,6 @@
         <span class="icon-bar"></span>
       </button>
 
-      {% comment %} Select what logo to display. {% endcomment %}
-      {% if page.carpentry == "swc" %}
-      <a href="{{ site.swc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
-      </a>
-      {% elsif page.carpentry == "dc" %}
-      <a href="{{ site.dc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/dc-icon-black.svg" alt="Data Carpentry logo" />
-      </a>
-      {% elsif site.carpentry == "swc" %}
-      <a href="{{ site.swc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
-      </a>
-      {% elsif site.carpentry == "dc" %}
-      <a href="{{ site.dc_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ page.root }}/assets/img/dc-icon-black.svg" alt="Data Carpentry logo" />
-      </a>
-      {% endif %}
-
       {% comment %} Always show link to home page. {% endcomment %}
       <a class="navbar-brand" href="{{ page.root }}/">Home</a>
 
@@ -65,6 +46,8 @@
 
 	{% comment %} Always show license. {% endcomment %}
         <li><a href="{{ page.root }}/license/">License</a></li>
+    {% comment %} Always show contribution. {% endcomment %}
+        <li><a href="{{ page.root }}/contribute/">Contribute</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
         <div class="form-group">

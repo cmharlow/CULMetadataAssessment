@@ -5,17 +5,6 @@
   <head>
 
     <meta name="slug" content="{{site.github.project_title}}" />
-    <meta name="startdate" content="{{page.startdate}}" />
-    <meta name="enddate" content="{{page.enddate}}" />
-    <meta name="humandate" content="{{page.humandate}}" />
-    <meta name="country" content="{{page.country}}" />
-    <meta name="venue" content="{{page.venue}}" />
-    <meta name="address" content="{{page.address}}" />
-    <meta name="latlng" content="{{page.latlng}}" />
-    <meta name="language" content="{{page.language}}" />
-    <meta name="eventbrite" content="{{page.eventbrite}}" />
-    <meta name="instructor" content="{{page.instructor|join:'|'}}" />
-    <meta name="helper" content="{{page.helper|join:'|'}}" />
     <meta name="contact" content="{{page.contact}}" />
     {% if page.redirect %}
     <meta http-equiv="refresh" content="0; url={{page.redirect}}" />
@@ -28,12 +17,6 @@
     <link rel="stylesheet" type="text/css" href="{{ page.root }}/assets/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="{{ page.root }}/assets/css/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="{{ page.root }}/assets/css/lesson.css" />
-    {% if site.carpentry == "swc" %}
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon-swc.ico" />
-    {% endif %}
-    {% if site.carpentry == "dc" %}
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon-dc.ico" />
-    {% endif %}
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

@@ -3,31 +3,16 @@
   <head>
 
     <meta name="slug" content="" />
-    <meta name="startdate" content="" />
-    <meta name="enddate" content="" />
-    <meta name="humandate" content="" />
-    <meta name="country" content="" />
-    <meta name="venue" content="" />
-    <meta name="address" content="" />
-    <meta name="latlng" content="" />
-    <meta name="language" content="" />
-    <meta name="eventbrite" content="" />
-    <meta name="instructor" content="" />
-    <meta name="helper" content="" />
     <meta name="contact" content="" />
     
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="last-modified" content="2017-03-31 15:44:35 -0400">
+    <meta http-equiv="last-modified" content="2017-03-31 17:45:38 -0400">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/lesson.css" />
-    
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon-swc.ico" />
-    
-    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -49,13 +34,6 @@
       </button>
 
       
-      
-      <a href="https://software-carpentry.org" class="pull-left">
-        <img class="navbar-logo" src="./assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
-      </a>
-      
-
-      
       <a class="navbar-brand" href="./">Home</a>
 
     </div>
@@ -73,6 +51,8 @@
 
 	
         <li><a href="./license/">License</a></li>
+    
+        <li><a href="./contribute/">Contribute</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
         <div class="form-group">
@@ -106,117 +86,34 @@
   </div>
 </div>
 
-<!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
-
-<!--
-  HEADER
-
-  Edit the values in the block above to be appropriate for your workshop.
-  If the value is not 'true', 'false', 'null', or a number, please use
-  double quotation marks around the value, unless specified otherwise.
-  And run 'tools/check' *before* committing to make sure that changes are good.
--->
-
 <h2 id="general">General Information</h2>
 
-<!--
-  INTRODUCTION
-
-  Edit the general explanatory paragraph below if you want to change
-  the pitch.
--->
 <p>
-  <a href="https://software-carpentry.org">Software Carpentry</a>
-  aims to help researchers get their work done
-  in less time and with less pain
-  by teaching them basic research computing skills.
-  This hands-on workshop will cover basic concepts and tools,
-  including program design, version control, data management,
-  and task automation.
-  Participants will be encouraged to help one another
-  and to apply what they have learned to their own research problems.
-</p>
-<p align="center">
-  <em>
-    For more information on what we teach and why,
-    please see our paper
-    "<a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745">Best Practices for Scientific Computing</a>".
-  </em>
+   Open Workshop Curriculum on defining and performing metadata assessment using Python, OpenRefine, and other tools as added.
 </p>
 
-<!--
-  AUDIENCE
-
-  Explain who your audience is.  (In particular, tell readers if the
-  workshop is only open to people from a particular institution.
--->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
-  <strong>You don't need to have any previous knowledge of the tools that will
-    be presented at the workshop.</strong>
+  The course is aimed at cultural heritage institutions staff who need to assess the state of metadata - whether descriptive, structural, administrative, in digital platforms, in analog repositories, wherever.
+  <strong>You don't need to have any previous knowledge of the ideas, methods or tools that will be presented at the workshop, and we welcome contributions to keep expanding this curriculum.</strong>
 </p>
 
-<!--
-  LOCATION
-
-  This block displays the address and links to maps showing directions
-  if the latitude and longitude of the workshop have been set.  You
-  can use http://itouchmap.com/latlong.html to find the lat/long of an
-  address.
--->
-
-
-<!--
-  DATE
-
-  This block displays the date and links to Google Calendar.
--->
-
-
-<!--
-  SPECIAL REQUIREMENTS
-
-  Modify the block below if there are any special requirements.
--->
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
-  <a href="https://software-carpentry.org/conduct.html">Code of Conduct</a>.
+  <strong>Requirements:</strong> Participants should bring or organizers should provide a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed
+  <a href="#setup">below</a>). They are also required to abide by the Code4Lib Code of Conduct <a href="/conduct/">Code of Conduct</a> (admittedly, applied here outside of Code4Lib space) and <a href="/conduct/">the Recurse Center's Social Rules</a>.
 </p>
 
-<!--
-  ACCESSIBILITY
-
-  Modify the block below if there are any barriers to accessibility or
-  special instructions.
--->
 <p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organisers have checked that:
+  <strong>Accessibility:</strong> We are committed to making this workshop accessible to everybody. The workshop organisers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  <a href="mailto:">get in touch</a> and we will
-  attempt to provide them.
+  Materials will be provided in advance of the workshop and large-print handouts are available if needed by notifying the organizers in advance.  If we can help making learning easier for you (e.g. sign-language interpreters, lactation facilities) please <a href="mailto:">get in touch</a> and we will attempt to provide them.
 </p>
 
-<!--
-  CONTACT EMAIL ADDRESS
-
-  Display the contact email address set in the configuration file.
--->
 <p id="contact">
   <strong>Contact</strong>:
   Please email
@@ -228,20 +125,7 @@
 
 <hr/>
 
-<!--
-  SCHEDULE
-
-  Show the workshop's schedule.  Edit the items and times in the table
-  to match your plans.  You may also want to change 'Day 1' and 'Day
-  2' to be actual dates or days of the week.
--->
 <h2 id="schedule">Schedule</h2>
-
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id=">Pre-workshop Survey</a></p>
-<p><a href="https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id=">Post-workshop Survey</a></p>
 
 <div class="row">
   <div class="col-md-6">
@@ -315,7 +199,7 @@
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
-      <li><a href="https://swcarpentry.github.io/shell-novice/reference/">Reference...</a></li>
+      <li><a href="/shell-novice/reference/">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
@@ -328,35 +212,9 @@
       <li>Loops and conditionals</li>
       <li>Defensive programming</li>
       <li>Using Python from the command line</li>
-      <li><a href="https://swcarpentry.github.io/python-novice-inflammation/reference/">Reference...</a></li>
+      <li><a href="/python-novice-inflammation/reference/">Reference...</a></li>
     </ul>
   </div>
-  <!--
-  <div class="col-md-6">
-    <h3 id="syllabus-r">Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
-      <li><a href="https://swcarpentry.github.io/r-novice-inflammation/reference/">Reference...</a></li>
-    </ul>
-  </div>
-  -->
-  <!--
-  <div class="col-md-6">
-    <h3 id="syllabus-matlab">Programming in MATLAB</h3>
-    <ul>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li><a href="https://swcarpentry.github.io/matlab-novice-inflammation/reference/">Reference...</a></li>
-     </ul>
-   </div>
-   -->
 </div>
 
 <div class="row">
@@ -371,7 +229,7 @@
       <li>Resolving conflicts</li>
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
-      <li><a href="https://swcarpentry.github.io/git-novice/reference/">Reference...</a></li>
+      <li><a href="/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
@@ -385,7 +243,7 @@
       <li>Combining information from multiple tables using <code>join</code></li>
       <li>Creating, modifying, and deleting data</li>
       <li>Programming with databases</li>
-      <li><a href="https://swcarpentry.github.io/sql-novice-survey/reference/">Reference...</a></li>
+      <li><a href="/sql-novice-survey/reference/">Reference...</a></li>
     </ul>
   </div>
 </div>
@@ -414,7 +272,7 @@
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
-  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  <a href = "/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
 <div id="shell"> <!-- Start of 'shell' section. -->
@@ -583,7 +441,7 @@
       <p>
         nano is a basic editor and the default that instructors use in the workshop.
         To install it,
-        download the <a href="https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe">Software Carpentry Windows installer</a>
+        download the <a href="">Software Carpentry Windows installer</a>
         and double click on the file to run it.
         <strong>This installer requires an active internet connection.</strong>
       </p>
@@ -718,57 +576,6 @@
 -->
 </div> <!-- End of 'Python' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the
-        installers as administrator (right-click on .exe file and select "Run as
-        administrator" instead of double-clicking). Otherwise problems may occur later,
-        for example when installing R packages.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'R' section. -->
-
 <div id="sql"> <!-- Start of 'SQLite' section. -->
   <h3>SQLite</h3>
 
@@ -782,7 +589,7 @@
     <div class="col-md-4">
       <h4 id="sql-windows">Windows</h4>
       <p>
-        The <a href="https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe">Software Carpentry Windows Installer</a>
+        The <a href="">Software Carpentry Windows Installer</a>
         installs SQLite for Windows.
         If you used the installer to configure nano, you don't need to run it again.
       </p>
@@ -806,41 +613,13 @@
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> <!-- End of 'SQLite' section. -->
 
-<!--
-  Uncomment this section if you are using our virtual machine.
-
-<div id="vm">
-  <h3>Virtual Machine</h3>
-
-  <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
-  </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
--->
-
       <footer>
   <div class="row">
     <div class="col-md-6" align="left">
-      <h4><a href="https://software-carpentry.org">Software Carpentry</a></h4>
+      <h4><a href="">Software Carpentry</a></h4>
     </div>
     <div class="col-md-6" align="right">
-      <h4><a href="http://datacarpentry.org">Data Carpentry</a></h4>
+      <h4><a href="">Data Carpentry</a></h4>
     </div>
   </div>
 </footer>
