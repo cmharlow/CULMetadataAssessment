@@ -18,8 +18,7 @@ EVENTBRITE_PATTERN = r'\d{9,10}'
 URL_PATTERN = r'https?://.+'
 
 # Defaults.
-CARPENTRIES = ("dc", "swc")
-DEFAULT_CONTACT_EMAIL = 'admin@software-carpentry.org'
+DEFAULT_CONTACT_EMAIL = 'cmharlow@gmail.com'
 
 USAGE = 'Usage: "check-workshop path/to/root/directory"'
 
@@ -87,13 +86,6 @@ def check_layout(layout):
     '''"layout" in YAML header must be "workshop".'''
 
     return layout == 'workshop'
-
-
-@look_for_fixme
-def check_carpentry(layout):
-    '''"carpentry" in YAML header must be "dc" or "swc".'''
-
-    return layout in CARPENTRIES
 
 
 @look_for_fixme
@@ -255,9 +247,6 @@ def check_pass(value):
 
 HANDLERS = {
     'layout':     (True, check_layout, 'layout isn\'t "workshop"'),
-
-    'carpentry':  (True, check_carpentry, 'carpentry isn\'t in ' +
-                   ', '.join(CARPENTRIES)),
 
     'country':    (True, check_country,
                    'country invalid: must use lowercase two-letter ISO code ' +
