@@ -295,7 +295,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-{% include carpentries.html %}
+{% include about.html %}
 '''
 
 EXTRAS_DISCUSS_MD = '''\

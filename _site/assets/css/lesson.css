@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400italic,700italic,400,700);
 .error {
   color: #bd2c00;
   border-left: solid 5px #bd2c00;
@@ -60,14 +60,6 @@
     border-color: #f4fd9c;
     margin-top: 0px;
     margin-left: -5px; }
-  .callout h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .challenge {
   padding-left: 5px;
@@ -85,14 +77,6 @@
     border-color: #eec275;
     margin-top: 0px;
     margin-left: -5px; }
-  .challenge h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "✏";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .checklist {
   padding-left: 5px;
@@ -110,14 +94,6 @@
     border-color: #dfd2a0;
     margin-top: 0px;
     margin-left: -5px; }
-  .checklist h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .discussion {
   padding-left: 5px;
@@ -135,14 +111,6 @@
     border-color: #eec275;
     margin-top: 0px;
     margin-left: -5px; }
-  .discussion h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .keypoints {
   padding-left: 5px;
@@ -160,14 +128,6 @@
     border-color: #7ae78e;
     margin-top: 0px;
     margin-left: -5px; }
-  .keypoints h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .objectives {
   padding-left: 5px;
@@ -185,14 +145,6 @@
     border-color: #daee84;
     margin-top: 0px;
     margin-left: -5px; }
-  .objectives h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .prereq {
   padding-left: 5px;
@@ -210,14 +162,6 @@
     border-color: #9cd6dc;
     margin-top: 0px;
     margin-left: -5px; }
-  .prereq h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .solution {
   padding-left: 5px;
@@ -235,14 +179,6 @@
     border-color: #ded4b9;
     margin-top: 0px;
     margin-left: -5px; }
-  .solution h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 .testimonial {
   padding-left: 5px;
@@ -260,14 +196,6 @@
     border-color: #fc8dc1;
     margin-top: 0px;
     margin-left: -5px; }
-  .testimonial h2:before {
-    font-family: 'Glyphicons Halflings';
-    content: "";
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased; }
 
 code {
   padding: 0 0;
@@ -276,6 +204,15 @@ code {
 
 img {
   max-width: 100%; }
+
+.jumbotron {
+  background-color: #94e7aa; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", serif; }
+
+.navbar-brand, .navbar-li {
+  font-family: "Montserrat", serif; }
 
 .maintitle {
   text-align: center; }
