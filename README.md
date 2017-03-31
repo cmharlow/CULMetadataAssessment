@@ -38,12 +38,13 @@ Time | Section
 ## Sample Data
 
 I’ve gotten requests to work with the following data sources:
-eCommons
-Fedora
-FGDC
-MARC
-Solr
-Shared shelf
+
+* eCommons (DIMS XML)
+* Fedora 4 (PCDM RDF/XML)
+* FGDC
+* MARC (MARC/XML, Binary MARC if time)
+* Solr (Documents)
+* SharedShelf (SS API Response)
 
 ## Metrics
 
