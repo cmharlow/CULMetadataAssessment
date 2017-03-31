@@ -8,7 +8,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="last-modified" content="2017-03-31 18:44:49 -0400">
+    <meta http-equiv="last-modified" content="2017-03-31 19:21:38 -0400">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap-theme.css" />
@@ -96,9 +96,7 @@
   <li>The room is wheelchair / scooter accessible.</li>
   <li>Accessible restrooms are available.</li>
 </ul>
-<p>
-  Materials will be provided in advance of the workshop and large-print handouts are available if needed by notifying the organizers in advance.  If we can help making learning easier for you (e.g. sign-language interpreters, lactation facilities) please <a href="mailto:">get in touch</a> and we will attempt to provide them.
-</p>
+<p> Materials will be provided in advance of the workshop and large-print handouts are available if needed by notifying the organizers in advance.  If we can help making learning easier for you (e.g. sign-language interpreters, lactation facilities) please <a href="mailto:">get in touch</a> and we will attempt to provide them.</p>
 
 <p id="contact">
   <strong>Contact</strong>:
@@ -109,56 +107,50 @@
 
 <hr/>
 
-<h2 id="schedule">Possible Schedule</h2>
+<h2 id="syllabus">Syllabus</h2>
+
+<h3>Sample Data Assessed</h3>
+<ul>
+    <li>DC/XML</li>
+    <li>DIMS/XML (DSpace)</li>
+    <li>Fedora 4 (PCDM RDF/XML)</li>
+    <li>FGDC</li>
+    <li>MARC (MARC/XML, Binary MARC)</li>
+    <li>MODS/XML</li>
+    <li>Solr (Documents)</li>
+    <li>SharedShelf (SS API Response)</li>
+</ul>
+
+<h3>Data Modeling &amp; Data Structures</h3>
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-    </table>
+    <h4 id="syllabus-datastruct">Data Structures</h4>
+    <p><em><a href="">link to materials</a></em></p>
+    <ul>
+      <li>What are Data Structures</li>
+      <li>Data Structures versus Data Models</li>
+      <li>What the Computer Needs from Data Structures</li>
+      <li>Places to Start Data Scripting</li>
+      <li>Regular Expressions</li>
+    </ul>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
-    </table>
+    <h4 id="syllabus-datamodel">Data Modeling</h4>
+    <ul>
+      <li>What is Data Modeling</li>
+      <li>Data Modeling versus Metadata Standards</li>
+      <li>Data Modeling &amp; Metadata Application Profiles</li>
+      <li>Metadata Ecosystem &amp; Data Modeling</li>
+    </ul>
   </div>
 </div>
 
-<!--
-  ETHERPAD
-
-  At `_misc/etherpad.txt` you will find a template for the etherpad.
-
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop,
-  e.g., '2015-06-10-esu'.
--->
-
-
-<hr/>
-
-<h2 id="syllabus">Syllabus</h2>
+<h3>Data Scripting Bootcamp</h2>
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-shell">The Unix Shell</h3>
+    <h4 id="syllabus-shell">Unix Shell &amp; Bash</h4>
     <ul>
       <li>Files and directories</li>
       <li>History and tab completion</li>
@@ -166,11 +158,10 @@
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
-      <li><a href="/shell-novice/reference/">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
-    <h3 id="syllabus-python">Programming in Python</h3>
+    <h4 id="syllabus-python">Programming in Python</h4>
     <ul>
       <li>Using libraries</li>
       <li>Working with arrays</li>
@@ -179,14 +170,13 @@
       <li>Loops and conditionals</li>
       <li>Defensive programming</li>
       <li>Using Python from the command line</li>
-      <li><a href="/python-novice-inflammation/reference/">Reference...</a></li>
     </ul>
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-6">
-    <h3 id="syllabus-git">Version Control with Git</h3>
+    <h4 id="syllabus-git">Version Control with Git</h4>
     <ul>
       <li>Creating a repository</li>
       <li>Recording changes to files: <code>add</code>, <code>commit</code>, ...</li>
@@ -196,11 +186,10 @@
       <li>Resolving conflicts</li>
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
-      <li><a href="/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
+    <h4 id="syllabus-sql">Managing Data with SQL</h4>
     <ul>
       <li>Reading and sorting data</li>
       <li>Filtering with <code>where</code></li>
@@ -210,10 +199,96 @@
       <li>Combining information from multiple tables using <code>join</code></li>
       <li>Creating, modifying, and deleting data</li>
       <li>Programming with databases</li>
-      <li><a href="/sql-novice-survey/reference/">Reference...</a></li>
     </ul>
   </div>
 </div>
+
+<h2>Metadata Assessment</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h4 id="syllabus-shell">Metadata Assessment Metrics</h4>
+    <ul>
+      <li>Completeness</li>
+      <li>Accuracy</li>
+      <li>Consistency</li>
+      <li>Appropriateness &amp; Relevance</li>
+      <li>Methods for Measuring these Metrics</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h4 id="syllabus-python">Catmandu</h4>
+    <ul>
+      <li>Fix Files</li>
+      <li>Metadata Breaker Module</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h4 id="syllabus-shell">Python Metadata Breakers</h4>
+    <ul>
+      <li>Overview of Python MetadataBreaker Scripts</li>
+      <li>Harvesting Metadata</li>
+      <li>General Report</li>
+      <li>Looking at a Specific Field</li>
+      <li>Using SORT, UNIQ, GREP, Regular Expressions</li>
+      <li>Export Reports</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h4 id="syllabus-python">OpenRefine for Metadata Assessment</h4>
+    <ul>
+      <li>Overview of OpenRefine</li>
+      <li>Loading a File</li>
+      <li>Facets</li>
+      <li>GREL or Google Refine Expression Language</li>
+      <li>Using Regular Expressions</li>
+      <li>Completeness Rankings</li>
+      <li>Export Reports</li>
+    </ul>
+  </div>
+</div>
+
+<h2>Metadata Normalization &amp; Enhancement
+
+<div class="row">
+  <div class="col-md-6">
+    <h4 id="syllabus-shell">Bash</h4>
+    <ul>
+      <li>TBD</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h4 id="syllabus-python">Python</h4>
+    <ul>
+      <li>TBD</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <h4 id="syllabus-shell">Catmandu</h4>
+    <ul>
+      <li>Files and directories</li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <h4 id="syllabus-python">OpenRefine</h4>
+    <ul>
+      <li>Using libraries</li>
+    </ul>
+  </div>
+</div>
+
+<hr/>
+
+
+<h2 id="schedule">Possible Schedule</h2>
+
+<p>TBD based off experiences running these</p>
 
 <hr/>
 
