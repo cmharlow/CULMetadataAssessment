@@ -30,9 +30,9 @@ Time | Section
 1-1:10 | Introduction / Setup (10 minutes)
 1:10-1:20 | Metrics for Metadata Assessment (10 minutes)
 1:20-1:50 | OpenRefine for Metadata Assessment (30 minutes)
-          | Includes: Loading a file, Facets, GREL, Regex, Completeness Rankings & Export
+ -- | Includes: Loading a file, Facets, GREL, Regex, Completeness Rankings & Export
 1:50-2:20 | Python for Metadata Assessment (30 minutes)
-          | Includes: Harvest, General Report, Specific Field review, SORT/UNIQ/GREP & Export
+ -- | Includes: Harvest, General Report, Specific Field review, SORT/UNIQ/GREP & Export
 2:20-2:30 | Wrap Up / Next Steps (10 minutes)
 
 ## Sample Data
