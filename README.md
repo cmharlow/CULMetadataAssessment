@@ -1,13 +1,7 @@
 # CUL MWG Metadata Assessment Workshop
-*Uris Lib B05 Classroom*
-*1 to 2:30 PM, Friday March 31st*
+*Curriculum, Sample Data, Worksheet, etc.*
 
-## Logistics
-We will be meeting in Uris Lib B05 Classroom from 1 to 2:30 PM today.
-
-This classroom has computers available, and we will be walking people through setting up the hosted options for OpenRefine and Python/Bash at the beginning (so you don’t have to bring your own computer, though please do if you can).
-
-## Minimal Setup
+## Minimal Setup for Others
 
 If you will be using the hosted options for the tools, please [Takes about 10 minutes]:
 
@@ -48,22 +42,32 @@ I’ve gotten requests to work with the following data sources:
 
 ## Metrics
 
+* **Completeness**: "A metadata instance should describe the resource as fully as possible. Also, the metadata fields should be filled in for the majority of the resource population in order to make them useful for any kind of service." -- P. Kiraly, 2015 (based on conceptual framework by Bruce & Hillmann and Ochoa & Duval)
+* **Accuracy**: "...the information provided in the values needs to be correct and factual. At the next level, accuracy is simply high-quality editing" -- Bruce & Hillmann, 2004
+* **Consistency**: "Metadata should be consistent with standard definitions and concepts used in the domain. The information contained in the metadata should also have internal coherence, that means that all the fields describe the same resource." -- P. Kiraly, 2015 (based on conceptual framework by Bruce & Hillmann and Ochoa & Duval)
+* **Appropriateness & Relevance**: "...metadata choices need to reflect community thinking and expectations about necessary compromises in implementation." -- Bruce & Hillmann, 2004
+
+Approaches to Reviewing those Metrics:
+
+* field usage reports
+* value assessment
+* review & 'validation'
 
 ## OpenRefine Worksheet
 
-Overview of OpenRefine
-Loading a File
-Facets
-GREL or Google Refine Expression Language
-Using Regular Expressions
-Completeness Rankings
-Export Reports
+* Overview of OpenRefine
+* Loading a File
+* Facets
+* GREL or Google Refine Expression Language
+* Using Regular Expressions
+* Completeness Rankings
+* Export Reports
 
 ## Python Metadata Breakers Worksheet
 
-Overview of Python MetadataBreaker Scripts
-Harvesting Metadata
-General Report
-Looking at a Specific Field
-Using SORT, UNIQ, GREP, Regular Expressions
-Export Reports
+* Overview of Python MetadataBreaker Scripts
+* Harvesting Metadata
+* General Report
+* Looking at a Specific Field
+* Using SORT, UNIQ, GREP, Regular Expressions
+* Export Reports
